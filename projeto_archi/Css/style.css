@@ -1,0 +1,93 @@
+html {
+    --green-1: #75ba1e;
+    --green-2: #66aa11;
+    --green-3: #599c06;
+    --white-1: #fafbfc;
+    --white-2: #ecedee;
+    --white-3: #dcddde;
+    --black-1: #404b52;
+    --black-2: #313b42;
+    --black-3: #232c33;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: left;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* HEADER */
+  
+  .header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    padding: 1.25rem 0;
+    background-color: #E2F6D9;
+    /*background: linear-gradient(135deg, var(--blue-1), var(--blue-3));
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);*/
+    z-index: 100;
+  }
+
+  img{
+    width:236px;
+    height:144px;
+  }
+  
+  .header-container {
+    display:inline-block;
+    justify-content:left;
+    align-items:center;
+    
+  }
+  
+  .header ul {
+    display: flex;
+  }
+  
+  .header li + li {
+    margin-left: 2rem;
+
+  }
+  
+  .header li a {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+
+    line-height: 1;
+    color: #232c33;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding: 1px 2;
+    transition: 0.1s ease-out;
+    text-decoration: solid;
+    /*margin-left: 10px;*/
+    list-style: none;
+   
+  }
+  
+  .header li a:hover,
+  .header li a.ativo {
+    border-bottom: 2px solid #fff;
+  }
+  
+
+/*.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #6dbe99;
+    background-size: cover;
+}
+
+.menu_nav{
+    display: flex;
+    align-items:left;
+    justify-content:left;
+    height: 100px;
+    background: url(./Logo/ArchiPlano_logo_FT.png) no-repeat right left;
+    background-size: cover;
+}*/
